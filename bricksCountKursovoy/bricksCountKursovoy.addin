@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command bricksCountKursovoy</Text>
+    <Description>Some description for bricksCountKursovoy</Description>
+    <Assembly>bricksCountKursovoy.dll</Assembly>
+    <FullClassName>bricksCountKursovoy.Command</FullClassName>
+    <ClientId>c2d06ff8-7b0c-4a78-b6fa-6a5e237fa1b3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application bricksCountKursovoy</Name>
+    <Assembly>bricksCountKursovoy.dll</Assembly>
+    <FullClassName>bricksCountKursovoy.App</FullClassName>
+    <ClientId>d6a8d261-6bd8-40de-ac54-c7f18e7795f2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
